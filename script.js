@@ -61,9 +61,9 @@ timeDive) {
     const swimValidate = swim(swims,timeSwim,timeDive)
     
     if(alturaValidate && barValidate && absValidate && raceValidate && swimValidate){
-        return true;
+        return console.log("TRUE");
     }
-    else{return false;};
+    else{return console.log("FALSE");};
 
 }
 
@@ -83,4 +83,4 @@ const areCandidateValid = areCandidateResultsValid(
     );
 
     // Chame aqui a função que mostra o resultado no console
-    console.log(areCandidateValid)
+    areCandidateValid
