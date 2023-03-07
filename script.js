@@ -81,6 +81,3 @@ const areCandidateValid = areCandidateResultsValid(
     process.argv[10], // Tempo total de nado em segundos
     process.argv[11] // Tempo total de mergulho em segundos
     );
-
-    // Chame aqui a função que mostra o resultado no console
-    areCandidateValid
